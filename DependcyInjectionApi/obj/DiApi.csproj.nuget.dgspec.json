@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SoftWorkBox\\.NetDeveloperToolKit\\DiApi\\DiApi.csproj": {}
+    "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\DependcyInjectionApi\\DiApi.csproj": {}
   },
   "projects": {
-    "C:\\SoftWorkBox\\.NetDeveloperToolKit\\DiApi\\DiApi.csproj": {
+    "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\DependcyInjectionApi\\DiApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SoftWorkBox\\.NetDeveloperToolKit\\DiApi\\DiApi.csproj",
+        "projectUniqueName": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\DependcyInjectionApi\\DiApi.csproj",
         "projectName": "DiApi",
-        "projectPath": "C:\\SoftWorkBox\\.NetDeveloperToolKit\\DiApi\\DiApi.csproj",
+        "projectPath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\DependcyInjectionApi\\DiApi.csproj",
         "packagesPath": "C:\\Users\\akinw\\.nuget\\packages\\",
-        "outputPath": "C:\\SoftWorkBox\\.NetDeveloperToolKit\\DiApi\\obj\\",
+        "outputPath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\DependcyInjectionApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
