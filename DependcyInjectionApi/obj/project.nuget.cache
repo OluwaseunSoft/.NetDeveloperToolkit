@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tcu960bBsfHIjlE5Hb3FW7/iOg5DB8ghaWvtLqwGIilcI9WubqKo551+lboQKgeNKTeZJZpm6b4PWOlOT2Lp9A==",
+  "dgSpecHash": "VJ6gAFST31colVfG/RM56Sk1XT4hP0JStgyLA10tQwB+mDERUk/g61vsNi0xeG97liwUrfopMc0VyBswm5f5bA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\DependcyInjectionApi\\DiApi.csproj",
+  "projectFilePath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\dependcyInjectionApi\\DiApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\akinw\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\akinw\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

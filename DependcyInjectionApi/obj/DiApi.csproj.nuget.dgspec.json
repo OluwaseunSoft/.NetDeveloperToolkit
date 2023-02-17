@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\DependcyInjectionApi\\DiApi.csproj": {}
+    "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\dependcyInjectionApi\\DiApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\DependcyInjectionApi\\DiApi.csproj": {
+    "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\dependcyInjectionApi\\DiApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\DependcyInjectionApi\\DiApi.csproj",
+        "projectUniqueName": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\dependcyInjectionApi\\DiApi.csproj",
         "projectName": "DiApi",
-        "projectPath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\DependcyInjectionApi\\DiApi.csproj",
+        "projectPath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\dependcyInjectionApi\\DiApi.csproj",
         "packagesPath": "C:\\Users\\akinw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\DependcyInjectionApi\\obj\\",
+        "outputPath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\dependcyInjectionApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
