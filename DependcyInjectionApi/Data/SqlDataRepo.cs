@@ -7,7 +7,7 @@ namespace DiApi.Data
             Console.ForegroundColor = ConsoleColor.Blue;
             System.Console.WriteLine("--> Getting Data From Sql DB");
             Console.ResetColor();
-            return("Sql data from Db");
+            return ("Sql data from Db");
         }
     }
 }
