@@ -1,6 +1,6 @@
 {
-  "SerializedFilePath": "c:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\DependcyInjectionApi\\obj\\Debug\\net6.0\\project.razor.json",
-  "FilePath": "c:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\DependcyInjectionApi\\DiApi.csproj",
+  "SerializedFilePath": "c:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\UserSecrets\\UserAPI\\obj\\Debug\\net6.0\\project.razor.json",
+  "FilePath": "c:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\UserSecrets\\UserAPI\\UserAPI.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -18371,7 +18371,7 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "DiApi",
+  "RootNamespace": "UserAPI",
   "Documents": [],
   "SerializationFormat": "0.3"
 }
