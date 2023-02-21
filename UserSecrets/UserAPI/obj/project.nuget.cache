@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B4yTiAWbmVwAXv/Ag9k++p9YyTCHSzqzE6qwEMPVD5ENZn8userDZtafcEXMqj/xNCPsgHA0rfJ2rhV4Oth90A==",
+  "dgSpecHash": "Q8lPtoImh/s0bohxnxSD0jsFSmSUAZRr9T1FEVg69S4lBZrHzwxjqjxBJYYehwpIFOZeT400A7JiNM1Gl7mw1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\UserSecrets\\UserAPI\\UserAPI.csproj",
+  "projectFilePath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\UserSecrets\\UserApi\\UserAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\akinw\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\akinw\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

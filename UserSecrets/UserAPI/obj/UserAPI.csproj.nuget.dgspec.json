@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\UserSecrets\\UserAPI\\UserAPI.csproj": {}
+    "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\UserSecrets\\UserApi\\UserAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\UserSecrets\\UserAPI\\UserAPI.csproj": {
+    "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\UserSecrets\\UserApi\\UserAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\UserSecrets\\UserAPI\\UserAPI.csproj",
+        "projectUniqueName": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\UserSecrets\\UserApi\\UserAPI.csproj",
         "projectName": "UserAPI",
-        "projectPath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\UserSecrets\\UserAPI\\UserAPI.csproj",
+        "projectPath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\UserSecrets\\UserApi\\UserAPI.csproj",
         "packagesPath": "C:\\Users\\akinw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\UserSecrets\\UserAPI\\obj\\",
+        "outputPath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\UserSecrets\\UserApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
