@@ -5,6 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+System.Console.WriteLine("Password --> " + builder.Configuration["Password"]);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
