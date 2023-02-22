@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OtUCCxPacKGLQv7KGGvBIgG/6eRDf36kn4ZNwckYUfB2XHj5QRafrZqBBdKiIRgRcn5Oc8eomj092KLtM1a5Xg==",
+  "dgSpecHash": "YGZvogdq1UKD0MyhQDILqzn9vKoARG3BOP1LNnsaaXdWzYmozy+kw2qfHqNZAxZKfNm6MjX3PapN6fNxx0qodQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\json\\serializer\\Serializer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\akinw\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\akinw\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\akinw\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

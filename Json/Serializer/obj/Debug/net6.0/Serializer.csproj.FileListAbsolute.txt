@@ -13,3 +13,7 @@ C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\json\serializer\obj\
 C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\json\serializer\obj\Debug\net6.0\Serializer.pdb
 C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\json\serializer\obj\Debug\net6.0\Serializer.genruntimeconfig.cache
 C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\json\serializer\obj\Debug\net6.0\ref\Serializer.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\json\serializer\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\json\serializer\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\json\serializer\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\json\serializer\obj\Debug\net6.0\Serializer.csproj.CopyComplete
