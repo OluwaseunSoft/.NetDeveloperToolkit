@@ -1,12 +1,1 @@
-{
-  "id": 1,
-  "firstName": "Sean",
-  "lastName": "Connery",
-  "age": 90,
-  "isAlive": false,
-  "address": {
-    "streetName": "20 Yetunde Brown",
-    "city": "Lagos",
-    "zipCode": "12345"
-  }
-}
+{"Id":1,"FirstName":"Sean","LastName":"Connery","Age":90,"IsAlive":false,"Address":{"StreetName":"20 Yetunde Brown","City":"Lagos","ZipCode":"12345"},"Phones":[{"PhoneType":"Home","PhoneNumber":"08023354288"},{"PhoneType":"Mobile","PhoneNumber":"08054354288"}]}
