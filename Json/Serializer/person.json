@@ -3,5 +3,10 @@
   "firstName": "Sean",
   "lastName": "Connery",
   "age": 90,
-  "isAlive": false
+  "isAlive": false,
+  "address": {
+    "streetName": "20 Yetunde Brown",
+    "city": "Lagos",
+    "zipCode": "12345"
+  }
 }

@@ -8,7 +8,13 @@ var person = new Person
     FirstName = "Sean",
     LastName = "Connery",
     Age = 90,
-    IsAlive = false
+    IsAlive = false,
+    Address = new Address
+    {
+        StreetName = "20 Yetunde Brown",
+        City = "Lagos",
+        ZipCode = "12345"
+    }
 };
 
 var opt = new JsonSerializerOptions
