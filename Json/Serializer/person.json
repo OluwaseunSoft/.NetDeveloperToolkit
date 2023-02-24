@@ -1,1 +1,22 @@
-{"Id":1,"FirstName":"Sean","Surname":"Connery","Age":90,"IsAlive":false,"Address":{"StreetName":"20 Yetunde Brown","City":"Lagos","ZipCode":"12345"},"Phones":[{"PhoneType":"Home","PhoneNumber":"08023354288"},{"PhoneType":"Mobile","PhoneNumber":"08054354288"}]}
+{
+  "id": 1,
+  "firstname": "Sean",
+  "surname": "Connery",
+  "age": 90,
+  "address": {
+    "streetname": "20 Yetunde Brown",
+    "city": "Lagos",
+    "zipcode": "12345"
+  },
+  "phones": [
+    {
+      "phonetype": "Home",
+      "phonenumber": "08023354288"
+    },
+    {
+      "phonetype": "Mobile",
+      "phonenumber": "08054354288"
+    }
+  ],
+  "eyecolor": "Blue"
+}

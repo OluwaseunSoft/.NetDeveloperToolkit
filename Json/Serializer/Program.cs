@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using Serializer.Helpers;
 using Serializer.Models;
 
 
@@ -19,16 +20,18 @@ var person = new Person
     {
         new Phone {PhoneType = "Home", PhoneNumber = "08023354288"},
         new Phone {PhoneType = "Mobile", PhoneNumber = "08054354288"}
-    }
+    },
+    EyeColor = "Blue"
 };
 
 var opt = new JsonSerializerOptions
 {
     WriteIndented = true,
-    PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+    PropertyNamingPolicy = new LowerCaseNamingPolicy(),
+    IncludeFields = true
 };
 
-string jsonString = JsonSerializer.Serialize<Person>(person);
+string jsonString = JsonSerializer.Serialize<Person>(person, opt);
 string fileName = "person.json";
 File.WriteAllText(fileName, jsonString);
 System.Console.WriteLine(File.ReadAllText(fileName));
