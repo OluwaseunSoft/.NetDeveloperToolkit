@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace Serializer.Models
+namespace Deserializer.Models
 {
     public class Person
     {
@@ -14,5 +14,7 @@ namespace Serializer.Models
         public bool IsAlive { get; set; }
         public Address? Address{get; set;}
         public IList<Phone>? Phones {get; set;}
+        //[JsonInclude]
+        public string? EyeColor;
     }
 }

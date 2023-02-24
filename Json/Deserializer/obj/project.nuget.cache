@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y8OEVGQ7Ze+6AalrOz9mjcX48vllxUeFGX+mKMcHuQ/KNiscxEJ9Ws+5NyLXThIRVHotAC13FDE87nXWMRqxAg==",
+  "dgSpecHash": "JGlkeyEOnJsCA1AiELTBTaXnVh5J1o7pv6ITiAhsoahsNNuTHhMia48baFQP2d5xfm9Ys3NklYhXTC0SrRPO0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\json\\Deserializer\\Deserializer.csproj",
+  "projectFilePath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\Json\\Deserializer\\Deserializer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

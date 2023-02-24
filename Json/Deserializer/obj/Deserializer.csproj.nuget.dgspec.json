@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\json\\Deserializer\\Deserializer.csproj": {}
+    "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\Json\\Deserializer\\Deserializer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\json\\Deserializer\\Deserializer.csproj": {
+    "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\Json\\Deserializer\\Deserializer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\json\\Deserializer\\Deserializer.csproj",
+        "projectUniqueName": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\Json\\Deserializer\\Deserializer.csproj",
         "projectName": "Deserializer",
-        "projectPath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\json\\Deserializer\\Deserializer.csproj",
+        "projectPath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\Json\\Deserializer\\Deserializer.csproj",
         "packagesPath": "C:\\Users\\akinw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\json\\Deserializer\\obj\\",
+        "outputPath": "C:\\Users\\akinw\\source\\repos\\New folder\\.NetDeveloperToolkit\\Json\\Deserializer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,0 +1,15 @@
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Json\Deserializer\bin\Debug\net6.0\Deserializer.exe
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Json\Deserializer\bin\Debug\net6.0\Deserializer.deps.json
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Json\Deserializer\bin\Debug\net6.0\Deserializer.runtimeconfig.json
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Json\Deserializer\bin\Debug\net6.0\Deserializer.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Json\Deserializer\bin\Debug\net6.0\Deserializer.pdb
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Json\Deserializer\obj\Debug\net6.0\Deserializer.csproj.AssemblyReference.cache
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Json\Deserializer\obj\Debug\net6.0\Deserializer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Json\Deserializer\obj\Debug\net6.0\Deserializer.AssemblyInfoInputs.cache
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Json\Deserializer\obj\Debug\net6.0\Deserializer.AssemblyInfo.cs
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Json\Deserializer\obj\Debug\net6.0\Deserializer.csproj.CoreCompileInputs.cache
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Json\Deserializer\obj\Debug\net6.0\Deserializer.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Json\Deserializer\obj\Debug\net6.0\refint\Deserializer.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Json\Deserializer\obj\Debug\net6.0\Deserializer.pdb
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Json\Deserializer\obj\Debug\net6.0\Deserializer.genruntimeconfig.cache
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Json\Deserializer\obj\Debug\net6.0\ref\Deserializer.dll
