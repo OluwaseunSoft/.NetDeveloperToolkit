@@ -1,15 +1,36 @@
 ﻿using System.Text.Json;
-using Deserializer.Models;
 
-var opt = new JsonSerializerOptions
+using HttpClient client = new()
 {
-    PropertyNameCaseInsensitive = true
+    BaseAddress = new Uri("https://localhost:7032")
 };
 
-string fileName = "person.json";
+var response = await client.GetAsync("/Weatherforecast");
 
-string jsonString = File.ReadAllText(fileName);
+// var temperatures = await client.GetFromJsonAsync<Temperature[]>("weatherforecast", opt);
+// if (temperatures != null)
+// {
+//     foreach (var temp in temperatures)
+//     {
+//         System.Console.WriteLine($"Summary: {temp.Summary}");
+//     }
+// }
+if (response.IsSuccessStatusCode)
+{
+    var jsonString = await response.Content.ReadAsStringAsync();
+    using (JsonDocument jsonDocument = JsonDocument.Parse(jsonString))
+    {
+        JsonElement root = jsonDocument.RootElement;
 
-Person? person = JsonSerializer.Deserialize<Person>(jsonString, opt);
+        System.Console.WriteLine(root.ValueKind);
 
-System.Console.WriteLine($"The first name is: {person?.LastName}");
+        foreach(var temp in root.EnumerateArray())
+        {
+            System.Console.WriteLine(temp.GetProperty("summary").ToString());
+        }
+    }
+}
+else
+{
+    System.Console.WriteLine($"Whoops! error: Error:{response.StatusCode}");
+}
