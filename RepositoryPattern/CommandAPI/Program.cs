@@ -32,7 +32,7 @@ app.MapGet("api/v1/commands", async (AppDbContext context) =>
 app.MapGet("api/v1/commands/{commandId}", async (AppDbContext context, string commandId) =>
 {
     var command = await context.Commands.FirstOrDefaultAsync
-    (c => c.CommandId == commandId);
+        (c => c.CommandId == commandId);
     if (command != null)
     {
         return Results.Ok(command);
@@ -48,15 +48,34 @@ app.MapPost("api/v1/commands", async (AppDbContext context, Command cmd) =>
     return Results.Created($"/api/v1/commands/{cmd.CommandId}", cmd);
 });
 
-// app.MapGet("api/v1/commands", async (AppDbContext context) =>
-// {
+app.MapPut("api/v1/commands/{commandId}",
+async (AppDbContext context, string commandId, Command cmd) =>
+{
+    var command = await context.Commands.FirstOrDefaultAsync
+        (c => c.CommandId == commandId);
 
-// });
+    if (command is null) return Results.NotFound();
 
-// app.MapGet("api/v1/commands", async (AppDbContext context) =>
-// {
+    command.HowTo = cmd.HowTo;
+    command.CommandLine = cmd.CommandLine;
+    command.Platform = cmd.Platform;
 
-// });
+    await context.SaveChangesAsync();
+    return Results.NoContent();
+});
+
+app.MapDelete("api/v1/commands/{commandId}", async (AppDbContext context, string commandId) =>
+{
+    var command = await context.Commands.FirstOrDefaultAsync
+      (c => c.CommandId == commandId);
+
+    if (command is null) return Results.NotFound();
+
+    context.Commands.Remove(command);
+    await  context.SaveChangesAsync();
+
+    return Results.Ok(command);
+});
 
 
 
