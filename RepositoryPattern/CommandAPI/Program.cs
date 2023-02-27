@@ -1,4 +1,5 @@
 using CommandAPI.Data;
+using CommandAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -28,15 +29,24 @@ app.MapGet("api/v1/commands", async (AppDbContext context) =>
     return Results.Ok(commands);
 });
 
-app.MapGet("api/v1/commands", async (AppDbContext context) =>
+app.MapGet("api/v1/commands/{commandId}", async (AppDbContext context, string commandId) =>
 {
-    
+    var command = await context.Commands.FirstOrDefaultAsync
+    (c => c.CommandId == commandId);
+    if (command != null)
+    {
+        return Results.Ok(command);
+    }
+    return Results.NotFound();
 });
 
-// app.MapGet("api/v1/commands", async (AppDbContext context) =>
-// {
+app.MapPost("api/v1/commands", async (AppDbContext context, Command cmd) =>
+{
+    await context.Commands.AddAsync(cmd);
+    await context.SaveChangesAsync();
 
-// });
+    return Results.Created($"/api/v1/commands/{cmd.CommandId}", cmd);
+});
 
 // app.MapGet("api/v1/commands", async (AppDbContext context) =>
 // {
