@@ -22,7 +22,31 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.MapGet("api/v1/commands", async (AppDbContext context) =>
+{
+    var commands = await context.Commands.ToListAsync();
+    return Results.Ok(commands);
+});
 
+app.MapGet("api/v1/commands", async (AppDbContext context) =>
+{
+    
+});
+
+// app.MapGet("api/v1/commands", async (AppDbContext context) =>
+// {
+
+// });
+
+// app.MapGet("api/v1/commands", async (AppDbContext context) =>
+// {
+
+// });
+
+// app.MapGet("api/v1/commands", async (AppDbContext context) =>
+// {
+
+// });
 
 
 
