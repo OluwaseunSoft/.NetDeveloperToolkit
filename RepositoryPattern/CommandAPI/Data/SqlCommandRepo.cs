@@ -1,32 +1,49 @@
 using CommandAPI.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CommandAPI.Data
 {
     public class SqlCommandRepo : ICommandRepo
     {
-        public Task CreateCommandAsync(Command cmd)
+        private readonly AppDbContext _context;
+
+        public SqlCommandRepo(AppDbContext context)
         {
-            throw new NotImplementedException();
+            _context = context;
+        }
+        public async Task CreateCommandAsync(Command cmd)
+        {
+            if (cmd == null)
+            {
+                throw new ArgumentNullException(nameof(cmd));
+            }
+
+            await _context.AddAsync(cmd);
         }
 
         public void DeleteCommand(Command cmd)
         {
-            throw new NotImplementedException();
+            if (cmd == null)
+            {
+                throw new ArgumentNullException(nameof(cmd));
+            }
+            _context.Commands.Remove(cmd);
         }
 
-        public Task<IEnumerable<Command>> GetAllCommandsAsync()
+        public async Task<IEnumerable<Command>> GetAllCommandsAsync()
         {
-            throw new NotImplementedException();
+            return await _context.Commands.ToListAsync();
         }
 
-        public Task<Command> GetCommandByIdAsync(string commandId)
+        public async Task<Command> GetCommandByIdAsync(string commandId)
         {
-            throw new NotImplementedException();
+            return await _context.Commands.FirstOrDefaultAsync
+            (c => c.CommandId == commandId);
         }
 
-        public Task SaveChangesAsync()
+        public async Task SaveChangesAsync()
         {
-            throw new NotImplementedException();
+            await _context.SaveChangesAsync();
         }
     }
 }
