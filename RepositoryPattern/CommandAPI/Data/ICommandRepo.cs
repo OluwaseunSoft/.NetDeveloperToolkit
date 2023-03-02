@@ -6,7 +6,7 @@ namespace CommandAPI.Data
     {
         Task SaveChangesAsync();
         Task<Command?> GetCommandByIdAsync(string commandId);
-        Task<IEnumerable<Command>> GetAllCommandsAsync();
+        Task<IEnumerable<Command?>?> GetAllCommandsAsync();
         Task CreateCommandAsync(Command cmd);
         void DeleteCommand(Command cmd);
     }

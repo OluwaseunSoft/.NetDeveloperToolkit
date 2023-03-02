@@ -30,14 +30,30 @@ namespace CommandAPI.Data
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Command>> GetAllCommandsAsync()
+        public async Task<IEnumerable<Command?>?> GetAllCommandsAsync()
         {
-            throw new NotImplementedException();
+            var db = _redis.GetDatabase();
+
+            var completeSet = await db.HashGetAllAsync("commands");
+            if (completeSet.Length > 0)
+            {
+                return Array.ConvertAll(completeSet, val
+                => JsonSerializer.Deserialize<Command>(val.Value));
+            }
+            List<Command> empty = new List<Command>();
+            return empty;
         }
 
-        public Task<Command?> GetCommandByIdAsync(string commandId)
+        public async Task<Command?> GetCommandByIdAsync(string commandId)
         {
-            throw new NotImplementedException();
+            var db = _redis.GetDatabase();
+
+            var command = await db.HashGetAsync("commands", commandId);
+            if (!string.IsNullOrEmpty(command))
+            {
+                return JsonSerializer.Deserialize<Command>(command);
+            }
+            return null;
         }
 
         public async Task SaveChangesAsync()

@@ -30,12 +30,12 @@ namespace CommandAPI.Data
             _context.Commands.Remove(cmd);
         }
 
-        public async Task<IEnumerable<Command>> GetAllCommandsAsync()
+        public async Task<IEnumerable<Command?>?> GetAllCommandsAsync()
         {
             return await _context.Commands.ToListAsync();
         }
 
-        public async Task<Command> GetCommandByIdAsync(string commandId)
+        public async Task<Command?> GetCommandByIdAsync(string commandId)
         {
             return await _context.Commands.FirstOrDefaultAsync
             (c => c.CommandId == commandId);
