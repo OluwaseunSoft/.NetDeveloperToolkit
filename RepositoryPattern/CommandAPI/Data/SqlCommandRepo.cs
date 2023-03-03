@@ -45,5 +45,11 @@ namespace CommandAPI.Data
         {
             await _context.SaveChangesAsync();
         }
+
+        public async Task UpdateCommandAsync(Command cmd)
+        {
+            System.Console.WriteLine("--> UpdateCommandAsync in SqlCommandRepo called redundantly...");
+            await Task.CompletedTask;
+        }
     }
 }

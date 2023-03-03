@@ -9,5 +9,6 @@ namespace CommandAPI.Data
         Task<IEnumerable<Command?>?> GetAllCommandsAsync();
         Task CreateCommandAsync(Command cmd);
         void DeleteCommand(Command cmd);
+        Task UpdateCommandAsync(Command cmd);
     }
 }

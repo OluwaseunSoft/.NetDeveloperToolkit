@@ -17,7 +17,7 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(opt =>
     ConnectionMultiplexer.Connect(builder.Configuration.GetConnectionString("RedisConnection")));
 
 //builder.Services.AddScoped<ICommandRepo, SqlCommandRepo>();
-builder.Services.AddScoped<ICommandRepo, RedisCommandRepo>();
+builder.Services.AddScoped<ICommandRepo, SqlCommandRepo>();
 
 var app = builder.Build();
 
@@ -67,6 +67,7 @@ async (ICommandRepo repo, string commandId, Command cmd) =>
     command.CommandLine = cmd.CommandLine;
     command.Platform = cmd.Platform;
 
+    await repo.UpdateCommandAsync(command);
     await repo.SaveChangesAsync();
     return Results.NoContent();
 });

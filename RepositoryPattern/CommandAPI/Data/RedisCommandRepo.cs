@@ -27,7 +27,9 @@ namespace CommandAPI.Data
 
         public void DeleteCommand(Command cmd)
         {
-            throw new NotImplementedException();
+            var db = _redis.GetDatabase();
+
+            db.HashDelete("commands", cmd.CommandId);
         }
 
         public async Task<IEnumerable<Command?>?> GetAllCommandsAsync()
@@ -61,6 +63,15 @@ namespace CommandAPI.Data
             System.Console.WriteLine("--> SavechangesAsync in RedisCommandRepo called redundantly...");
             // throw new NotImplementedException();
             await Task.CompletedTask;
+        }
+
+        public async Task UpdateCommandAsync(Command cmd)
+        {
+            var db = _redis.GetDatabase();
+
+            var serialCommand = JsonSerializer.Serialize<Command>(cmd);
+            await db.HashSetAsync($"commands", new HashEntry[]
+            {new HashEntry(cmd.CommandId, serialCommand)});
         }
     }
 }
