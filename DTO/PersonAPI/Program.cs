@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PersonAPI.Data;
+using PersonAPI.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +21,31 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.MapGet("api/v1/people", async (AppDbContext context) =>
+{
+    var people = await context.People.ToListAsync();
+
+    return Results.Ok(people);
+});
+
+app.MapGet("api/v1/people/{id}", async (AppDbContext context, int id) =>
+{
+    var person = await context.People.FindAsync(id);
+
+    if (person == null)
+        return Results.NotFound();
+        
+    return Results.Ok(person);
+});
+
+app.MapPost("api/v1/people", async (AppDbContext context, Person person) =>
+{
+    await context.People.AddAsync(person);
+    await context.SaveChangesAsync();        
+    return Results.Created($"/api/v1/people/{person.Id}", person);
+});
+
 
 app.UseHttpsRedirection();
 
