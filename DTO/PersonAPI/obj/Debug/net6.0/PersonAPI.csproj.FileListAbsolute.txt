@@ -80,3 +80,5 @@ C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\DTO\PersonAPI\obj\De
 C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\DTO\PersonAPI\obj\Debug\net6.0\PersonAPI.pdb
 C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\DTO\PersonAPI\obj\Debug\net6.0\PersonAPI.genruntimeconfig.cache
 C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\DTO\PersonAPI\obj\Debug\net6.0\ref\PersonAPI.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\DTO\PersonAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\DTO\PersonAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
