@@ -32,7 +32,7 @@ app.MapGet("api/v1/people", async (AppDbContext context, IMapper mapper) =>
 {
     var people = await context.People.ToListAsync();
 
-    return Results.Ok(mapper.Map<IEnumerable<PersonDto>>(people));
+    return Results.Ok(mapper.Map<IEnumerable<PersonReadDto>>(people));
 });
 
 app.MapGet("api/v1/people/{id}", async (AppDbContext context, int id, IMapper mapper) =>
@@ -43,7 +43,7 @@ app.MapGet("api/v1/people/{id}", async (AppDbContext context, int id, IMapper ma
         return Results.NotFound();
 
     //Mapper method Destination <- Source
-    var personDto = mapper.Map<PersonDto>(personModel);
+    var personDto = mapper.Map<PersonReadDto>(personModel);
     // var personDto = new PersonDto{
     //     Id = personModel.Id,
     //     FullName = personModel.FullName,
@@ -52,11 +52,12 @@ app.MapGet("api/v1/people/{id}", async (AppDbContext context, int id, IMapper ma
     return Results.Ok(personDto);
 });
 
-app.MapPost("api/v1/people", async (AppDbContext context, Person person) =>
+app.MapPost("api/v1/people", async (AppDbContext context, PersonCreateDto personCreateDto, IMapper mapper) =>
 {
-    await context.People.AddAsync(person);
+    var personModel = mapper.Map<Person>(personCreateDto);
+    await context.People.AddAsync(personModel);
     await context.SaveChangesAsync();
-    return Results.Created($"/api/v1/people/{person.Id}", person);
+    return Results.Created($"/api/v1/people/{personModel.Id}", mapper.Map<PersonReadDto>(personModel));
 });
 
 app.MapPut("api/v1/people/{id}", async (AppDbContext context, int id, Person person) =>

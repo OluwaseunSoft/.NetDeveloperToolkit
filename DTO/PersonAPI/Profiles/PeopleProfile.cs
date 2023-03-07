@@ -9,7 +9,10 @@ namespace PersonAPI.Profiles
         public PeopleProfile()
         {
             //Mapper profile Source -> Destination
-            CreateMap<Person, PersonDto>();
+            CreateMap<Person, PersonReadDto>()
+            .ForMember(dest => dest.Age, opt => opt.MapFrom(src => src.OlderBy));
+
+            CreateMap<PersonCreateDto, Person>();
         }
     }
 }

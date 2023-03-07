@@ -12,12 +12,16 @@ namespace PersonAPI.Models
         public string? Telephone { get; set; }
         [Required]
         public string? DoB { get; set; }
-        public int Age { get {
-            var today = DateTime.Today;
+        public int OlderBy
+        {
+            get
+            {
+                var today = DateTime.Today;
 
-            var splitDoB = DoB!.Split("-");
+                var splitDoB = DoB!.Split("-");
 
-            return today.Year - int.Parse(splitDoB[0]);
-        } }
+                return today.Year - int.Parse(splitDoB[0]);
+            }
+        }
     }
 }
