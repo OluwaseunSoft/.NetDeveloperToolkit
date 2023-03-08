@@ -12,7 +12,10 @@ namespace PersonAPI.Profiles
             CreateMap<Person, PersonReadDto>()
             .ForMember(dest => dest.Age, opt => opt.MapFrom(src => src.OlderBy));
 
-            CreateMap<PersonCreateDto, Person>();
+            CreateMap<PersonCreateDto, Person>()
+            .ForMember(dest => dest.FullName, opt => 
+            opt.MapFrom(src => src.FirstName + ' ' + src.LastName));
+
         }
     }
 }
