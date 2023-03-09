@@ -20,6 +20,7 @@ namespace PersonAPI.Profiles
             .ForMember(dest => dest.FullName, opt => 
             opt.MapFrom(src => src.FirstName + ' ' + src.LastName));
 
+            CreateMap<string, int>().ConvertUsing<IntTypeConverter>();
         }
     }
 }

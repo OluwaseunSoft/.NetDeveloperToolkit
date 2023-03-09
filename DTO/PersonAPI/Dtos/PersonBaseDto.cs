@@ -12,5 +12,7 @@ namespace PersonAPI.Dtos
         public string? Telephone { get; set; }
         [Required]
         public string? DoB { get; set; }
+
+        public string? Points { get; set; }
     }
 }
