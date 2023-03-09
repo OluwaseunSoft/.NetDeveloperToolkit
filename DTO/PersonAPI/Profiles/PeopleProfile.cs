@@ -10,7 +10,7 @@ namespace PersonAPI.Profiles
         {
             //Mapper profile Source -> Destination
             CreateMap<Person, PersonReadDto>()
-            .ForMember(dest => dest.Age, opt => opt.MapFrom(src => src.OlderBy));
+            .ForMember(dest => dest.Age, opt => opt.MapFrom<AgeResolver>());
 
             CreateMap<PersonCreateDto, Person>()
             .ForMember(dest => dest.FullName, opt => 
