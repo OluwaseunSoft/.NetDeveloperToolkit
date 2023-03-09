@@ -14,7 +14,8 @@ namespace PersonAPI.Profiles
 
             CreateMap<PersonCreateDto, Person>()
             .ForMember(dest => dest.FullName, opt => 
-            opt.MapFrom(new FullNameResolver()!));
+            opt.MapFrom(new FullNameResolver()!))
+            .ForMember(dest=>dest.House, opt=>opt.NullSubstitute("School house"));
 
             CreateMap<PersonUpdateDto, Person>()
             .ForMember(dest => dest.FullName, opt => 
