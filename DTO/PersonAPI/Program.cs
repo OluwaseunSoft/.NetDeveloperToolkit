@@ -44,11 +44,7 @@ app.MapGet("api/v1/people/{id}", async (AppDbContext context, int id, IMapper ma
 
     //Mapper method Destination <- Source
     var personDto = mapper.Map<PersonReadDto>(personModel);
-    // var personDto = new PersonDto{
-    //     Id = personModel.Id,
-    //     FullName = personModel.FullName,
-    //     Telephone = personModel.Telephone
-    // };
+   
     return Results.Ok(personDto);
 });
 
