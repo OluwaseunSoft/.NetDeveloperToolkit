@@ -25,3 +25,14 @@ C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Docker\ToDoAPI\obj\D
 C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Docker\ToDoAPI\obj\Debug\net6.0\ToDoAPI.pdb
 C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Docker\ToDoAPI\obj\Debug\net6.0\ToDoAPI.genruntimeconfig.cache
 C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Docker\ToDoAPI\obj\Debug\net6.0\ref\ToDoAPI.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Docker\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Docker\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Docker\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Docker\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Docker\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Docker\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Docker\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Docker\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Docker\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Docker\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Docker\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
