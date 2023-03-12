@@ -16,7 +16,7 @@ app.MapGet("api/todo", async (AppDbContext context) =>
 
     return Results.Ok(items);
 });
-
+//jjiii
 app.MapPost("api/todo", async (AppDbContext context, ToDo toDo) =>
 {
     await context.ToDos.AddAsync(toDo);
