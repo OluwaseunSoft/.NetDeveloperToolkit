@@ -4,9 +4,11 @@ using ToDoAPI.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<AppDbContext>
-(opt => opt.UseInMemoryDatabase("ToDoDB"));
-
+// builder.Services.AddDbContext<AppDbContext>
+// (opt => opt.UseInMemoryDatabase("ToDoDB SQLDbConnection"));
+builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(
+    builder.Configuration.GetConnectionString("SQLDbConnection")
+));
 var app = builder.Build();
 //app.UseHttpsRedirection();
 
