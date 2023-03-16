@@ -1,0 +1,15 @@
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Gitworkflow\PrintColour\bin\Debug\net6.0\PrintColour.exe
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Gitworkflow\PrintColour\bin\Debug\net6.0\PrintColour.deps.json
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Gitworkflow\PrintColour\bin\Debug\net6.0\PrintColour.runtimeconfig.json
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Gitworkflow\PrintColour\bin\Debug\net6.0\PrintColour.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Gitworkflow\PrintColour\bin\Debug\net6.0\PrintColour.pdb
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Gitworkflow\PrintColour\obj\Debug\net6.0\PrintColour.csproj.AssemblyReference.cache
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Gitworkflow\PrintColour\obj\Debug\net6.0\PrintColour.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Gitworkflow\PrintColour\obj\Debug\net6.0\PrintColour.AssemblyInfoInputs.cache
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Gitworkflow\PrintColour\obj\Debug\net6.0\PrintColour.AssemblyInfo.cs
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Gitworkflow\PrintColour\obj\Debug\net6.0\PrintColour.csproj.CoreCompileInputs.cache
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Gitworkflow\PrintColour\obj\Debug\net6.0\PrintColour.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Gitworkflow\PrintColour\obj\Debug\net6.0\refint\PrintColour.dll
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Gitworkflow\PrintColour\obj\Debug\net6.0\PrintColour.pdb
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Gitworkflow\PrintColour\obj\Debug\net6.0\PrintColour.genruntimeconfig.cache
+C:\Users\akinw\source\repos\New folder\.NetDeveloperToolkit\Gitworkflow\PrintColour\obj\Debug\net6.0\ref\PrintColour.dll
