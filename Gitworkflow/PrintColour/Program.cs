@@ -1,2 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("--> I am printing green");
+Console.ResetColor();
